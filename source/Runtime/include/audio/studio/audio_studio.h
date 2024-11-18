@@ -1,0 +1,39 @@
+﻿#pragma once
+
+#include <iostream>
+#include <fmod/core/fmod.hpp>
+#include <fmod/studio/fmod_studio.hpp>
+#include "audio/studio/audio_studio_event.h"
+
+using namespace std;
+
+class AudioStudio {
+public:
+    /// 初始化FMOD Studio
+    /// \return
+    static FMOD_RESULT Init();
+
+    /// 刷帧
+    /// \return
+    static FMOD_RESULT Update();
+
+    /// 加载 bank 文件
+    /// \param file_name
+    /// \return
+    static FMOD_RESULT LoadBankFile(string file_name);
+
+    /// 获取Event实例，如果没有就创建。
+    /// \param event_path
+    /// \return
+    static AudioStudioEvent* CreateEventInstance(const char *event_path);
+
+    /// 设置听者属性
+    /// \param x
+    /// \param y
+    /// \param z
+    static void setListenerAttributes(float x,float y,float z);
+
+private:
+    static FMOD::Studio::System* system_;
+};
+
