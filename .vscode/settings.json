@@ -1,0 +1,8 @@
+{
+    "clangd.arguments": [
+        "--cross-file-rename",
+        "--header-insertion-decorators",
+        "--suggest-missing-includes",
+        "--enable-config",
+    ]
+}
