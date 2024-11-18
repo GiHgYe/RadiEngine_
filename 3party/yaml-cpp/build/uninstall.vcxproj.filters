@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\下载\Source\yaml-cpp-master\build\CMakeFiles\1e8f15361cab771d3877a5fe5f8b9633\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\下载\Source\yaml-cpp-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\下载\Source\yaml-cpp-master\build\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{673CBBEC-C1AA-3813-A3A4-B0B0B4080540}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

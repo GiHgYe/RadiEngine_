@@ -1,0 +1,10 @@
+^E:\下载\SOURCE\YAML-CPP-MASTER\BUILD\CMAKEFILES\1E8F15361CAB771D3877A5FE5F8B9633\GENERATE.STAMP.RULE
+setlocal
+"I:\Program Files\CMake\bin\cmake.exe" -SE:/下载/Source/yaml-cpp-master -BE:/下载/Source/yaml-cpp-master/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/下载/Source/yaml-cpp-master/build/YAML_CPP.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

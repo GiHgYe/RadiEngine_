@@ -1,0 +1,40 @@
+# CMake generation dependency list for this directory.
+E:/下载/Source/yaml-cpp-master/CMakeLists.txt
+E:/下载/Source/yaml-cpp-master/build/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake
+E:/下载/Source/yaml-cpp-master/build/CMakeFiles/3.27.7/CMakeRCCompiler.cmake
+E:/下载/Source/yaml-cpp-master/build/CMakeFiles/3.27.7/CMakeSystem.cmake
+E:/下载/Source/yaml-cpp-master/build/CMakeFiles/cmake.verify_globs
+E:/下载/Source/yaml-cpp-master/cmake_uninstall.cmake.in
+E:/下载/Source/yaml-cpp-master/yaml-cpp-config.cmake.in
+E:/下载/Source/yaml-cpp-master/yaml-cpp.pc.in
+I:/Program Files/CMake/share/cmake-3.27/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXInformation.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDependentOption.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakeRCInformation.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CTest.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CTestTargets.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CTestUseLaunchers.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/MSVC-CXX.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/MSVC.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/DartConfiguration.tcl.in
+I:/Program Files/CMake/share/cmake-3.27/Modules/GNUInstallDirs.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC-CXX.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake

@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{07D2537D-D322-3D41-8055-9E0CC4C6A4FE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>yaml-cpp static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\下载\Source\yaml-cpp-master\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">yaml-cpp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">yaml-cppd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\下载\Source\yaml-cpp-master\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">yaml-cpp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">yaml-cpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\下载\Source\yaml-cpp-master\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">yaml-cpp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">yaml-cpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\下载\Source\yaml-cpp-master\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">yaml-cpp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">yaml-cpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\下载\Source\yaml-cpp-master\include;E:\下载\Source\yaml-cpp-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4355</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\下载\Source\yaml-cpp-master\include;E:\下载\Source\yaml-cpp-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\下载\Source\yaml-cpp-master\include;E:\下载\Source\yaml-cpp-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\下载\Source\yaml-cpp-master\include;E:\下载\Source\yaml-cpp-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4355</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\下载\Source\yaml-cpp-master\include;E:\下载\Source\yaml-cpp-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\下载\Source\yaml-cpp-master\include;E:\下载\Source\yaml-cpp-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\下载\Source\yaml-cpp-master\include;E:\下载\Source\yaml-cpp-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4355</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\下载\Source\yaml-cpp-master\include;E:\下载\Source\yaml-cpp-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\下载\Source\yaml-cpp-master\include;E:\下载\Source\yaml-cpp-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\下载\Source\yaml-cpp-master\include;E:\下载\Source\yaml-cpp-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4355</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\下载\Source\yaml-cpp-master\include;E:\下载\Source\yaml-cpp-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\下载\Source\yaml-cpp-master\include;E:\下载\Source\yaml-cpp-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\下载\Source\yaml-cpp-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/下载/Source/yaml-cpp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"I:\Program Files\CMake\bin\cmake.exe" -SE:/下载/Source/yaml-cpp-master -BE:/下载/Source/yaml-cpp-master/build --check-stamp-file E:/下载/Source/yaml-cpp-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\下载\Source\yaml-cpp-master\build\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;E:\下载\Source\yaml-cpp-master\build\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;E:\下载\Source\yaml-cpp-master\build\CMakeFiles\3.27.7\CMakeSystem.cmake;E:\下载\Source\yaml-cpp-master\build\CMakeFiles\cmake.verify_globs;E:\下载\Source\yaml-cpp-master\cmake_uninstall.cmake.in;E:\下载\Source\yaml-cpp-master\yaml-cpp-config.cmake.in;E:\下载\Source\yaml-cpp-master\yaml-cpp.pc.in;I:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CTest.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CTestTargets.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CTestUseLaunchers.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\DartConfiguration.tcl.in;I:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\下载\Source\yaml-cpp-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/下载/Source/yaml-cpp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"I:\Program Files\CMake\bin\cmake.exe" -SE:/下载/Source/yaml-cpp-master -BE:/下载/Source/yaml-cpp-master/build --check-stamp-file E:/下载/Source/yaml-cpp-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\下载\Source\yaml-cpp-master\build\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;E:\下载\Source\yaml-cpp-master\build\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;E:\下载\Source\yaml-cpp-master\build\CMakeFiles\3.27.7\CMakeSystem.cmake;E:\下载\Source\yaml-cpp-master\build\CMakeFiles\cmake.verify_globs;E:\下载\Source\yaml-cpp-master\cmake_uninstall.cmake.in;E:\下载\Source\yaml-cpp-master\yaml-cpp-config.cmake.in;E:\下载\Source\yaml-cpp-master\yaml-cpp.pc.in;I:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CTest.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CTestTargets.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CTestUseLaunchers.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\DartConfiguration.tcl.in;I:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\下载\Source\yaml-cpp-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/下载/Source/yaml-cpp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"I:\Program Files\CMake\bin\cmake.exe" -SE:/下载/Source/yaml-cpp-master -BE:/下载/Source/yaml-cpp-master/build --check-stamp-file E:/下载/Source/yaml-cpp-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\下载\Source\yaml-cpp-master\build\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;E:\下载\Source\yaml-cpp-master\build\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;E:\下载\Source\yaml-cpp-master\build\CMakeFiles\3.27.7\CMakeSystem.cmake;E:\下载\Source\yaml-cpp-master\build\CMakeFiles\cmake.verify_globs;E:\下载\Source\yaml-cpp-master\cmake_uninstall.cmake.in;E:\下载\Source\yaml-cpp-master\yaml-cpp-config.cmake.in;E:\下载\Source\yaml-cpp-master\yaml-cpp.pc.in;I:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CTest.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CTestTargets.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CTestUseLaunchers.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\DartConfiguration.tcl.in;I:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\下载\Source\yaml-cpp-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/下载/Source/yaml-cpp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"I:\Program Files\CMake\bin\cmake.exe" -SE:/下载/Source/yaml-cpp-master -BE:/下载/Source/yaml-cpp-master/build --check-stamp-file E:/下载/Source/yaml-cpp-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\下载\Source\yaml-cpp-master\build\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;E:\下载\Source\yaml-cpp-master\build\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;E:\下载\Source\yaml-cpp-master\build\CMakeFiles\3.27.7\CMakeSystem.cmake;E:\下载\Source\yaml-cpp-master\build\CMakeFiles\cmake.verify_globs;E:\下载\Source\yaml-cpp-master\cmake_uninstall.cmake.in;E:\下载\Source\yaml-cpp-master\yaml-cpp-config.cmake.in;E:\下载\Source\yaml-cpp-master\yaml-cpp.pc.in;I:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CTest.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CTestTargets.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CTestUseLaunchers.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\DartConfiguration.tcl.in;I:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;I:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\下载\Source\yaml-cpp-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\contrib\graphbuilder.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\contrib\graphbuilderadapter.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\binary.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\convert.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\depthguard.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\directives.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\emit.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\emitfromevents.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\emitter.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\emitterstate.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\emitterutils.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\exceptions.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\exp.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\memory.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\node.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\node_data.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\nodebuilder.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\nodeevents.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\null.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\ostream_wrapper.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\parse.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\parser.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\regex_yaml.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\scanner.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\scanscalar.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\scantag.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\scantoken.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\simplekey.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\singledocparser.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\stream.cpp" />
+    <ClCompile Include="E:\下载\Source\yaml-cpp-master\src\tag.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\下载\Source\yaml-cpp-master\build\ZERO_CHECK.vcxproj">
+      <Project>{4EE2A839-DE1B-3831-A47F-AA6FAE478192}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
