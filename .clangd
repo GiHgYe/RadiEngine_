@@ -1,0 +1,17 @@
+CompileFlags:
+  Add: [
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/assimp/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/fmod/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/freetype/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/glad/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/glfw/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/lua/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/lua_socket/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/sol/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/spdlog/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/stb/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/yaml-cpp/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/source/Runtime/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/source/SandBox/include",
+    "-IC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/source/MetaGenerate",
+  ]
