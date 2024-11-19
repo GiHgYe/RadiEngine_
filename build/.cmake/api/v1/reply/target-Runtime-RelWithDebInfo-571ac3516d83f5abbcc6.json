@@ -21,8 +21,8 @@
 		"commands" : 
 		[
 			"add_library",
-			"target_link_libraries",
 			"add_dependencies",
+			"target_link_libraries",
 			"target_compile_options",
 			"target_compile_definitions",
 			"target_include_directories",
@@ -45,19 +45,19 @@
 				"parent" : 0
 			},
 			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 21,
-				"parent" : 0
-			},
-			{
 				"file" : 1
 			},
 			{
-				"command" : 2,
+				"command" : 1,
 				"file" : 1,
 				"line" : 39,
-				"parent" : 3
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
 			},
 			{
 				"command" : 3,
@@ -105,11 +105,11 @@
 					"define" : "NOMINMAX"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 4,
 					"define" : "SPDLOG_COMPILED_LIB"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 4,
 					"define" : "YAML_CPP_STATIC_DEFINE"
 				}
 			],
@@ -164,7 +164,7 @@
 					"path" : "C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/yaml-cpp/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 4,
 					"path" : "C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/build/3party/freetype/include"
 				},
 				{
@@ -239,35 +239,35 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
+			"backtrace" : 3,
+			"id" : "PreCompile::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
 			"id" : "glfw::@54c5f18fb4040420e3fc"
 		},
 		{
 			"backtrace" : 4,
-			"id" : "PreCompile::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "yaml-cpp::@2fdb631a87d055800e5b"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "spdlog::@2bbd7c49d5095e9256e4"
 		},
 		{
-			"backtrace" : 2,
+			"backtrace" : 4,
+			"id" : "yaml-cpp::@2fdb631a87d055800e5b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "lua::@29f64cca7f4321811de7"
+		},
+		{
+			"backtrace" : 4,
 			"id" : "luasocket::@a234a34c266cbd591a42"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 2,
+			"backtrace" : 4,
 			"id" : "freetype::@dd634e394b96319bcc72"
 		},
 		{
-			"backtrace" : 2,
-			"id" : "lua::@29f64cca7f4321811de7"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Runtime::@a9bd492d03b75036b2d6",

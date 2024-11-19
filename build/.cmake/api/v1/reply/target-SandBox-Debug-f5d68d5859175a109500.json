@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "source/SandBox/Release/SandBox.exe"
+			"path" : "source/SandBox/Debug/SandBox.exe"
 		},
 		{
-			"path" : "source/SandBox/Release/SandBox.pdb"
+			"path" : "source/SandBox/Debug/SandBox.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -107,7 +107,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
 				}
 			],
 			"defines" : 
@@ -195,7 +195,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
 				}
 			],
 			"defines" : 
@@ -300,26 +300,26 @@
 		},
 		{
 			"backtrace" : 2,
+			"id" : "spdlog::@2bbd7c49d5095e9256e4"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "yaml-cpp::@2fdb631a87d055800e5b"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "spdlog::@2bbd7c49d5095e9256e4"
+			"id" : "lua::@29f64cca7f4321811de7"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "luasocket::@a234a34c266cbd591a42"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "freetype::@dd634e394b96319bcc72"
 		},
 		{
-			"backtrace" : 2,
-			"id" : "lua::@29f64cca7f4321811de7"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "SandBox::@99b8dce2db2539379e22",
@@ -328,26 +328,26 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\Runtime\\Release\\Runtime.lib",
+				"fragment" : "..\\Runtime\\Debug\\Runtime.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "..\\..\\3party\\glfw\\src\\Release\\glfw3.lib",
+				"fragment" : "..\\..\\3party\\glfw\\src\\Debug\\glfw3.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "..\\..\\3party\\freetype\\Release\\freetype.lib",
+				"fragment" : "..\\..\\3party\\freetype\\Debug\\freetyped.lib",
 				"role" : "libraries"
 			},
 			{
@@ -387,12 +387,12 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "..\\..\\3party\\spdlog\\Release\\spdlog.lib",
+				"fragment" : "..\\..\\3party\\spdlog\\Debug\\spdlogd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "..\\..\\3party\\lua_socket\\Release\\luasocket.lib",
+				"fragment" : "..\\..\\3party\\lua_socket\\Debug\\luasocket.lib",
 				"role" : "libraries"
 			},
 			{
@@ -402,12 +402,12 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "..\\..\\3party\\yaml-cpp\\Release\\yaml-cpp.lib",
+				"fragment" : "..\\..\\3party\\yaml-cpp\\Debug\\yaml-cppd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "..\\..\\3party\\lua\\Release\\lua.lib",
+				"fragment" : "..\\..\\3party\\lua\\Debug\\lua.lib",
 				"role" : "libraries"
 			},
 			{

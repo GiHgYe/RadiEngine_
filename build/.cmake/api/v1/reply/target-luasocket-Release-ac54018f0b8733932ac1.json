@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "3party/lua_socket/MinSizeRel/luasocket.lib"
+			"path" : "3party/lua_socket/Release/luasocket.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /O1 /Ob1 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG -MD"
 				}
 			],
 			"includes" : 
@@ -95,11 +95,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "lua::@29f64cca7f4321811de7"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "luasocket::@a234a34c266cbd591a42",

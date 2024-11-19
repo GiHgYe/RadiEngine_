@@ -17,19 +17,22 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "MetaParser::@66a676ac9fefd3c9ebb4"
+			"id" : "PreCompile::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "glfw::@54c5f18fb4040420e3fc"
 		},
 		{
+			"id" : "Runtime::@a9bd492d03b75036b2d6"
+		},
+		{
 			"id" : "SandBox::@99b8dce2db2539379e22"
 		},
 		{
-			"id" : "PreCompile::@6890427a1f51a3e7e1df"
+			"id" : "MetaParser::@66a676ac9fefd3c9ebb4"
 		},
 		{
-			"id" : "Runtime::@a9bd492d03b75036b2d6"
+			"id" : "spdlog::@2bbd7c49d5095e9256e4"
 		},
 		{
 			"id" : "yaml-cpp::@2fdb631a87d055800e5b"
@@ -38,25 +41,22 @@
 			"id" : "yaml-cpp-parse::@bbb1b0dad77ae4b0a598"
 		},
 		{
-			"id" : "yaml-cpp-read::@bbb1b0dad77ae4b0a598"
-		},
-		{
 			"id" : "yaml-cpp-sandbox::@bbb1b0dad77ae4b0a598"
 		},
 		{
-			"id" : "spdlog::@2bbd7c49d5095e9256e4"
+			"id" : "lua::@29f64cca7f4321811de7"
 		},
 		{
 			"id" : "luasocket::@a234a34c266cbd591a42"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"id" : "yaml-cpp-read::@bbb1b0dad77ae4b0a598"
 		},
 		{
 			"id" : "freetype::@dd634e394b96319bcc72"
 		},
 		{
-			"id" : "lua::@29f64cca7f4321811de7"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"folder" : 

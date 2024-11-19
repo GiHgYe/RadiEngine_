@@ -300,26 +300,26 @@
 		},
 		{
 			"backtrace" : 2,
+			"id" : "spdlog::@2bbd7c49d5095e9256e4"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "yaml-cpp::@2fdb631a87d055800e5b"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "spdlog::@2bbd7c49d5095e9256e4"
+			"id" : "lua::@29f64cca7f4321811de7"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "luasocket::@a234a34c266cbd591a42"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "freetype::@dd634e394b96319bcc72"
 		},
 		{
-			"backtrace" : 2,
-			"id" : "lua::@29f64cca7f4321811de7"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "SandBox::@99b8dce2db2539379e22",
