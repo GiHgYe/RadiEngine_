@@ -1,0 +1,26 @@
+# CMake generation dependency list for this directory.
+C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/sol/CMakeLists.txt
+C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/sol/cmake/Includes/Project.cmake
+C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/sol/cmake/Modules/CheckCompilerDiagnostic.cmake
+C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/sol/cmake/Modules/CheckCompilerFlag.cmake
+C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/sol/cmake/Modules/FindVersion.cmake
+C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/sol/cmake/sol2-config.cmake.in
+C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/build/CMakeFiles/cmake.verify_globs
+I:/Program Files/CMake/share/cmake-3.27/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDependentOption.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CMakePrintHelpers.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CTest.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CTestTargets.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CTestUseLaunchers.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/CheckIPOSupported.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/DartConfiguration.tcl.in
+I:/Program Files/CMake/share/cmake-3.27/Modules/ExternalProject/shared_internal_commands.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/FeatureSummary.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/FetchContent.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/GNUInstallDirs.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake
+I:/Program Files/CMake/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake

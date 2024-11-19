@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\core\audio_clip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\core\audio_core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\core\audio_listener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\core\audio_source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\studio\audio_studio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\studio\audio_studio_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\component\component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\component\game_object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\control\input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\data_structs\tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\log\log_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\axis_aligned.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\matrix3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\matrix4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\vector4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\meta\json11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\meta\reflection\reflection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\meta\reflection\reflection_register.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\meta\serializer\serializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\render_device\render_device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\render_device\render_device_opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\animation_clip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\mesh_filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\mesh_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\skinned_mesh_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\texture2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\scripting\component_binder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\scripting\global_binder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\scripting\lua_binder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\scripting\math_binder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\scripting\renderer_binder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\ui\ui_button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\ui\ui_camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\ui\ui_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\ui\ui_mask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\ui\ui_text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\utils\engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\utils\screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\utils\time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BD12066C-3907-3D46-AACC-841723ADACE9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

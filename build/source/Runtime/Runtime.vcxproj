@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E18110D9-404A-3FD5-99EE-9F280941B585}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Runtime</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\source\Runtime\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Runtime.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Runtime</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\source\Runtime\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Runtime.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Runtime</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\source\Runtime\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Runtime.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Runtime</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\source\Runtime\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Runtime.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Runtime</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\MetaGenerate;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\assimp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\fmod\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glad\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glfw\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua_socket\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\spdlog\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\stb\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\yaml-cpp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/sol/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NOMINMAX;SPDLOG_COMPILED_LIB;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;SPDLOG_COMPILED_LIB;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\MetaGenerate;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\assimp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\fmod\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glad\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glfw\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua_socket\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\spdlog\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\stb\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\yaml-cpp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\sol\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\MetaGenerate;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\assimp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\fmod\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glad\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glfw\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua_socket\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\spdlog\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\stb\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\yaml-cpp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\sol\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\MetaGenerate;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\assimp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\fmod\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glad\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glfw\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua_socket\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\spdlog\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\stb\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\yaml-cpp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/sol/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;SPDLOG_COMPILED_LIB;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;SPDLOG_COMPILED_LIB;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\MetaGenerate;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\assimp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\fmod\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glad\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glfw\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua_socket\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\spdlog\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\stb\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\yaml-cpp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\sol\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\MetaGenerate;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\assimp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\fmod\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glad\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glfw\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua_socket\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\spdlog\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\stb\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\yaml-cpp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\sol\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\MetaGenerate;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\assimp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\fmod\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glad\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glfw\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua_socket\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\spdlog\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\stb\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\yaml-cpp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/sol/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;SPDLOG_COMPILED_LIB;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;SPDLOG_COMPILED_LIB;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\MetaGenerate;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\assimp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\fmod\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glad\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glfw\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua_socket\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\spdlog\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\stb\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\yaml-cpp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\sol\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\MetaGenerate;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\assimp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\fmod\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glad\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glfw\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua_socket\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\spdlog\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\stb\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\yaml-cpp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\sol\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\MetaGenerate;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\assimp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\fmod\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glad\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glfw\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua_socket\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\spdlog\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\stb\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\yaml-cpp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/3party/sol/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;SPDLOG_COMPILED_LIB;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;SPDLOG_COMPILED_LIB;YAML_CPP_STATIC_DEFINE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\MetaGenerate;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\assimp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\fmod\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glad\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glfw\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua_socket\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\spdlog\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\stb\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\yaml-cpp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\sol\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\MetaGenerate;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\assimp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\fmod\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glad\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\glfw\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\lua_socket\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\spdlog\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\stb\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\yaml-cpp\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\include;C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\3party\sol\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/source/Runtime/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"I:\Program Files\CMake\bin\cmake.exe" -SC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine -BC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/build --check-stamp-file C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/build/source/Runtime/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\source\Runtime\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/source/Runtime/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"I:\Program Files\CMake\bin\cmake.exe" -SC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine -BC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/build --check-stamp-file C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/build/source/Runtime/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\source\Runtime\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/source/Runtime/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"I:\Program Files\CMake\bin\cmake.exe" -SC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine -BC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/build --check-stamp-file C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/build/source/Runtime/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\source\Runtime\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/source/Runtime/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"I:\Program Files\CMake\bin\cmake.exe" -SC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine -BC:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/build --check-stamp-file C:/Users/asus/Desktop/VSCodeFile/CppCode/Engine/build/source/Runtime/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\source\Runtime\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\audio.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\core\audio_clip.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\core\audio_core.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\core\audio_listener.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\core\audio_source.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\studio\audio_studio.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\audio\studio\audio_studio_event.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\component\component.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\component\game_object.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\control\input.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\data_structs\tree.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\log\log_system.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\axis_aligned.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\math.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\matrix3.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\matrix4.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\quaternion.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\vector2.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\vector3.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\math\vector4.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\meta\json11.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\meta\reflection\reflection.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\meta\reflection\reflection_register.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\meta\serializer\serializer.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\render_device\render_device.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\render_device\render_device_opengl.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\animation.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\animation_clip.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\camera.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\font.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\material.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\mesh_filter.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\mesh_renderer.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\shader.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\skinned_mesh_renderer.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\renderer\texture2d.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\scripting\component_binder.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\scripting\global_binder.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\scripting\lua_binder.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\scripting\math_binder.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\scripting\renderer_binder.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\ui\ui_button.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\ui\ui_camera.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\ui\ui_image.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\ui\ui_mask.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\ui\ui_text.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\utils\engine.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\utils\screen.cpp" />
+    <ClCompile Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\source\Runtime\src\utils\time.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\ZERO_CHECK.vcxproj">
+      <Project>{AF827C2F-50EF-3400-85E2-A37ED43A026F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\PreCompile.vcxproj">
+      <Project>{AAC3730E-641E-3694-8D9B-DA185CB2576B}</Project>
+      <Name>PreCompile</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\freetype\freetype.vcxproj">
+      <Project>{644884E6-B65E-3AA8-BE16-DC38CDE87F29}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\glfw\src\glfw.vcxproj">
+      <Project>{9ABFC528-7B64-353B-AFFD-814EB14ED507}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\lua\lua.vcxproj">
+      <Project>{F58B9549-FC0D-35A3-8A06-FAD5F215DFF1}</Project>
+      <Name>lua</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\lua_socket\luasocket.vcxproj">
+      <Project>{FEBFFCB1-4977-3A82-9D4E-E1F974D7E08C}</Project>
+      <Name>luasocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\spdlog\spdlog.vcxproj">
+      <Project>{561EF2DB-5D80-37F9-96F8-E8952B332605}</Project>
+      <Name>spdlog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\asus\Desktop\VSCodeFile\CppCode\Engine\build\3party\yaml-cpp\yaml-cpp.vcxproj">
+      <Project>{882A2E86-6C75-34DF-A036-25D10CC5850A}</Project>
+      <Name>yaml-cpp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

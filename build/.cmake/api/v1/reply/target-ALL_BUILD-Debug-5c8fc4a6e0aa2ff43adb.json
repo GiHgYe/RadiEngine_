@@ -1,0 +1,49 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"3party/yaml-cpp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "yaml-cpp::@2fdb631a87d055800e5b"
+		},
+		{
+			"id" : "yaml-cpp-parse::@bbb1b0dad77ae4b0a598"
+		},
+		{
+			"id" : "yaml-cpp-read::@bbb1b0dad77ae4b0a598"
+		},
+		{
+			"id" : "yaml-cpp-sandbox::@bbb1b0dad77ae4b0a598"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@2fdb631a87d055800e5b",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "3party/yaml-cpp",
+		"source" : "3party/yaml-cpp"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
